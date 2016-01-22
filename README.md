@@ -6,9 +6,11 @@ Example usage:
 // Some inits...
 
 // Recursive directory files retrieving through FTP protocol.
+
 $l_aDirData = JSX_PHP_FTP_Directory_List_Get( $g_aConnData, $g_aPathData );
 
 // Print data.
+
 JSX_PHP_FTP_Files_List_Recursive_Print( $l_aDirData );
 
 JESAX.NET [ http://www.jesax.net/ ]
